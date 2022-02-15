@@ -1,0 +1,117 @@
+.page{
+  width: 100%;
+  min-height: 100%;
+  background-color: #004b98;
+  background-image: url(../../assets/image/bg-w.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.system{
+  text-align: center;
+  color: #fff;
+  padding-bottom:60px;
+}
+.system h3{
+  font-size: 50px;
+  padding: 60px 0;
+}
+.system .form{
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.system .form .left{
+  width: 50%;
+  padding: 50px 0;
+  background: -moz-linear-gradient(top, #137eec 0%, #0a5bae 100%);
+  background: -webkit-linear-gradient(top, #137eec 0%,#0a5bae 100%);
+  background: -o-linear-gradient(top, #137eec 0%,#0a5bae 100%);
+  background: -ms-linear-gradient(top, #137eec 0%,#0a5bae 100%);
+  background: linear-gradient(to bottom, #137eec 0%,#0a5bae 100%);
+}
+.system .form .left img{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.system .form .right{
+  background: #fff;
+  padding: 50px 8%;
+  width: 50%;
+}
+.system .form .right .logo img{
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.system .form ul li{
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  border:1px solid #bbb;
+}
+.system .form ul li img{
+  display: block;
+  width: 24px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+.system .form ul li .input{
+  padding-left: 70px;
+}
+.system .form ul li .input input{
+  width: 100%;
+  line-height: 30px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.system .form .forget{
+  text-align: left;
+  color: #999;
+  margin-bottom: 50px;
+  line-height: 16px;
+}
+.system .form .forget a{
+  float: right;
+  color: #004b98;
+}
+.system .form .login a{
+  display: block;
+  height: 50px;
+  background: #004b98;
+  color: #fff;
+  border-radius: 30px;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/*勾选*/
+.forget label{
+  display: block;
+  width: 16px;
+  height: 16px;
+  border:1px solid #bbb;
+  border-radius: 2px;
+  float: left;
+  margin-right: 10px;
+}
+.forget .active{
+  border:1px solid #48648c;
+}
+.forget .active i{
+  display: block;
+  width: 6px;
+  height: 11px;
+  border-color: #48648c;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+.forget span{
+  color: #48648c;
+}
